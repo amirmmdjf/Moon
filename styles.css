@@ -1,5 +1,4 @@
 body {
-    /* font-family: 'Lato', sans-serif; */
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     font-size: 1.6rem;
@@ -226,8 +225,68 @@ body {
 
 .fourth {
     width: 100%;
-    height: 600px;
-    background-color: yellow;
+    height: 750px;
+    background-color: white;
+}
+
+.top {
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.top-title {
+    margin-top: 80px;
+    font-weight: 300;
+    font-size: 35px;
+    color: #242424;
+}
+
+.top-parag {
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bottom>* {
+    width: 27%;
+    height: 163px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 1px;
+}
+
+.icons{
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bottom-title{
+    font-weight: 400;
+    margin-top: 10px;
+    color: #242424;
+}
+
+.bottom-pargraph{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: -17px;
+    color: #242424;
+    line-height: 1.5;
 }
 
 .fifth {
