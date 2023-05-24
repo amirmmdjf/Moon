@@ -72,5 +72,3 @@ image6.addEventListener("mouseleave", () => {
     hover6.style.display = "none"
 })
 
-
-console.log("sag");
