@@ -664,7 +664,7 @@ body {
 
 .title-top-card {
     margin-top: 17px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 800;
     color: #FDBA51;
 }
@@ -739,7 +739,46 @@ body {
 .ninth {
     width: 100%;
     height: 400px;
-    background-color: steelblue;
+    background-color: white;
+}
+
+.top-nine{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-nine{
+    font-size: 35px;
+    color: #333;
+    font-weight: 300;
+    margin-top: 70px;
+}
+
+.bottom-nine{
+    width: 100%;
+    height: 248px;
+    display: flex;
+}
+
+.bottom-nine > *{
+    width: 16.5%;
+    height: 121px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.logo{
+    width: 135px;
+    height: 121px;
+    transition: .4s;
+}
+
+.logo:hover{
+    margin-top: -5px;
 }
 
 .tenth {
