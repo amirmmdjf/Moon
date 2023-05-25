@@ -549,7 +549,7 @@ body {
 }
 
 
-.box-hover{
+.box-hover {
     width: 25%;
     height: 450px;
     align-items: center;
@@ -563,30 +563,32 @@ body {
 }
 
 
-.e2{
+.e2 {
     height: 35%;
 }
 
-.e4{
+.e4 {
     height: 20%;
 }
-.e5{
+
+.e5 {
     margin-top: -70px;
     height: 35%;
 }
-.e6{
+
+.e6 {
     height: 20%;
 }
 
-.box-icon{
+.box-icon {
     display: flex;
     flex-direction: row;
     width: 70px;
     justify-content: space-between;
-    
+
 }
 
-.title-img{
+.title-img {
     margin-top: 10px;
     font-size: 25px;
     font-weight: 400;
@@ -604,7 +606,134 @@ body {
 .eighth {
     width: 100%;
     height: 800px;
-    background-color: violet;
+    background-color: #f7f8f9;
+}
+
+.top-eighth {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-top-eighth {
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 80px;
+}
+
+.parag-top-eighth {
+    line-height: 1.5;
+    font-size: 15px;
+
+}
+
+.bottom-eighth {
+    width: 100%;
+    height: 545px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-eighth>* {
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-card {
+    width: 90%;
+    height: 83%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(147, 145, 145, 0.2) 0px 2px 8px 0px;
+}
+
+.top-card {
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid #33333328;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-top-card {
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #FDBA51;
+}
+
+.box-size {
+    margin-top: -30px;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.size {
+    font-size: 35px;
+    color: #242424;
+}
+
+.gb {
+    font-size: 22px;
+    margin-top: 35px;
+    font-weight: 400;
+    color: #242424;
+}
+
+.parag-top-card {
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.bottom-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.parag-bottom-card {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.price {
+    font-size: 35px;
+    color: #242424;
+    margin-top: 50px;
+}
+
+.per-month {
+    font-size: 17px;
+    margin-top: -25px;
+}
+
+.button-buy {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FDBA51;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button-buy:hover {
+    margin-top: -1px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .ninth {
