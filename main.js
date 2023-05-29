@@ -72,3 +72,29 @@ image6.addEventListener("mouseleave", () => {
     hover6.style.display = "none"
 })
 
+if (window.innerWidth < 501) {
+    image1.addEventListener("mouseenter", () => {
+        hover1.style.display = "none"
+        image1.style.opacity = "1"
+    })
+    image2.addEventListener("mouseenter", () => {
+        hover2.style.display = "none"
+        image2.style.opacity = "1"
+    })
+    image3.addEventListener("mouseenter", () => {
+        hover3.style.display = "none"
+        image3.style.opacity = "1"
+    })
+    image4.addEventListener("mouseenter", () => {
+        hover4.style.display = "none"
+        image4.style.opacity = "1"
+    })
+    image5.addEventListener("mouseenter", () => {
+        hover5.style.display = "none"
+        image5.style.opacity = "1"
+    })
+    image6.addEventListener("mouseenter", () => {
+        hover6.style.display = "none"
+        image6.style.opacity = "1"
+    })
+}
