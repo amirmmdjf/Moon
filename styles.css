@@ -836,10 +836,11 @@ body {
 @media only screen and (max-width: 500px) {
     body {
         background-color: lightblue;
+        margin: 0;
     }
 
     .main {
-        width: 350px;
+        width: 370px;
     }
 
     .header {
