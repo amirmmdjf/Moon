@@ -28,7 +28,6 @@ componentFirst.addEventListener("click", () => {
 })
 
 
-
 image1.addEventListener("mouseenter", () => {
     image1.style.opacity = "0.3"
     hover1.style.display = "flex"
