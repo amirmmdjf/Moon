@@ -14,6 +14,20 @@ let hover6 = document.querySelector(".e6")
 let image6 = document.querySelector(".i6")
 let boxIcons = document.querySelector(".box-icon")
 
+let listIcon = document.querySelector(".list")
+let menue = document.querySelector(".links")
+let componentFirst = document.querySelector(".C-first")
+
+
+listIcon.addEventListener("click", () => {
+    menue.classList.toggle("items")
+})
+
+componentFirst.addEventListener("click", () => {
+    menue.classList.toggle("items")
+})
+
+
 
 image1.addEventListener("mouseenter", () => {
     image1.style.opacity = "0.3"
